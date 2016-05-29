@@ -1,0 +1,21 @@
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    color: #838994;
+    letter-spacing: .03em;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li.active{
+color: #4c5058;
+font-weight: 500;
+}
