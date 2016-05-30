@@ -163,6 +163,7 @@ ul {
     border: 1px solid #eaebec;
     padding: .625rem 0;
     text-align: center;
+    cursor: pointer;
 }
 
 .social {
@@ -177,9 +178,8 @@ ul {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;   
 }
-
 h5,ul {
     margin: 0;
     padding: 0;
@@ -189,7 +189,13 @@ h5,ul {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-
+h5 {
+    display: block;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
 .social .copy {
     font-size: .9rem;
     font-weight: 300;
